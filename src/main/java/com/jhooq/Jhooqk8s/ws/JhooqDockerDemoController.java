@@ -10,7 +10,7 @@ public class JhooqDockerDemoController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello - Jhooq-k8s";
+        return "Hello - Jhooq-k8s this is changed version";
     }
 
     @GetMapping("/callOtherApp")
